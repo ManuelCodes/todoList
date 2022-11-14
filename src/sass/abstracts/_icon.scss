@@ -1,0 +1,17 @@
+.icon {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: white;
+    border: none;
+    width: 1.25em;
+    background-color: #EF292B;
+    cursor: pointer;
+    &__arrow > span {
+        //
+        display: inherit;
+        transform: translateY(-0.3rem);
+    }
+    &:active {
+        transform: translateY(-.1rem);
+    }
+}

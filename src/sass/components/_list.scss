@@ -1,0 +1,30 @@
+
+
+.list {
+    text-decoration: none;
+    list-style: none;
+    font-size: 2.5rem;
+    text-align: left;
+
+    padding: 18px;
+	
+	
+	gap: 12px;
+	//width: 250px;
+
+    &__item {
+        //border: 1px $color-grey-dark-2 solid;
+        //background-color: $color-grey-dark-2;
+        //border-left: 1px lighten( $color-grey-dark,  15%) solid;
+        //border-right: 1px lighten( $color-grey-dark,  15%) solid;;
+        background-color: lighten( $color-grey-dark,  45%);
+        padding-left: 1rem;
+    }
+    :nth-child(odd) {
+        background-color: lighten( $color-grey-dark,  40%);
+        //border: none;
+        padding-left: 1rem;
+    }
+    
+	
+}
